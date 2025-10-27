@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+.cta-1 {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 15px 0;
+  width: 200px;
+  border: none;
+  border-radius: 8px;
+
+  background-color: #3fa2f6;
+  margin-bottom: 60px;
+  cursor: pointer;
+  transition: background-color 0.12s, border 0.12s, color 0.21s, padding 0.12s;
+}
+
+.cta-1:hover {
+  background-color: transparent;
+  color: #3fa2f6;
+  border: 2px solid #3fa2f6;
+  padding: 13px 0;
+}
